@@ -17,6 +17,6 @@ router.post('/tasks', createTasks)
 
 router.put('/tasks/:id', updateTasks)
 
-router.delete('/tasks/:id', delateTasks   )
+router.delete('/tasks/:id', delateTasks)
 
 export default router;
